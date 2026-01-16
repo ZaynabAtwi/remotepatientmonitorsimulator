@@ -2,6 +2,9 @@
 
 An enterprise-ready, software-only RPM platform simulator designed for clinical demos, education, product validation, and research. It generates synthetic patient vitals with physiologic realism, feeds a backend ingestion pipeline, evaluates clinical rules, and surfaces alerts and analytics in a clinician-grade dashboard.
 
+## 🎥 System Demonstration
+[Click here to watch the RPM Simulator demo video](main/RPMS.mp4)
+
 ## System Overview
 **Core flow**
 1. Synthetic patient profiles are created with risk, diagnoses, and baselines.
