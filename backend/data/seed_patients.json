@@ -1,0 +1,106 @@
+[
+  {
+    "id": "pat_001",
+    "name": "Avery Kim",
+    "age": 62,
+    "sex": "female",
+    "height_cm": 165,
+    "weight_kg": 74,
+    "diagnoses": ["Hypertension", "Type 2 Diabetes"],
+    "risk_profile": "high",
+    "assigned_clinician": "clinician1",
+    "monitoring_status": "active",
+    "baseline_profile": {
+      "heart_rate": {"mean": 82, "std": 6},
+      "bp_systolic": {"mean": 148, "std": 10},
+      "bp_diastolic": {"mean": 88, "std": 6},
+      "spo2": {"mean": 94, "std": 2},
+      "temperature": {"mean": 36.8, "std": 0.2},
+      "respiratory_rate": {"mean": 18, "std": 2},
+      "blood_glucose": {"mean": 165, "std": 25}
+    }
+  },
+  {
+    "id": "pat_002",
+    "name": "Mateo Rossi",
+    "age": 54,
+    "sex": "male",
+    "height_cm": 178,
+    "weight_kg": 91,
+    "diagnoses": ["COPD"],
+    "risk_profile": "medium",
+    "assigned_clinician": "clinician1",
+    "monitoring_status": "active",
+    "baseline_profile": {
+      "heart_rate": {"mean": 88, "std": 8},
+      "bp_systolic": {"mean": 132, "std": 8},
+      "bp_diastolic": {"mean": 84, "std": 6},
+      "spo2": {"mean": 92, "std": 2},
+      "temperature": {"mean": 36.7, "std": 0.3},
+      "respiratory_rate": {"mean": 20, "std": 3},
+      "activity": {"mean": 4200, "std": 1200}
+    }
+  },
+  {
+    "id": "pat_003",
+    "name": "Isabella Grant",
+    "age": 71,
+    "sex": "female",
+    "height_cm": 160,
+    "weight_kg": 66,
+    "diagnoses": ["Atrial Fibrillation"],
+    "risk_profile": "high",
+    "assigned_clinician": "clinician1",
+    "monitoring_status": "active",
+    "baseline_profile": {
+      "heart_rate": {"mean": 96, "std": 12},
+      "bp_systolic": {"mean": 138, "std": 9},
+      "bp_diastolic": {"mean": 86, "std": 6},
+      "spo2": {"mean": 95, "std": 1.5},
+      "temperature": {"mean": 36.9, "std": 0.2},
+      "respiratory_rate": {"mean": 19, "std": 2}
+    }
+  },
+  {
+    "id": "pat_004",
+    "name": "Noah Bennett",
+    "age": 45,
+    "sex": "male",
+    "height_cm": 182,
+    "weight_kg": 86,
+    "diagnoses": ["Asthma"],
+    "risk_profile": "low",
+    "assigned_clinician": "clinician1",
+    "monitoring_status": "active",
+    "baseline_profile": {
+      "heart_rate": {"mean": 72, "std": 5},
+      "bp_systolic": {"mean": 122, "std": 7},
+      "bp_diastolic": {"mean": 78, "std": 5},
+      "spo2": {"mean": 97, "std": 1},
+      "temperature": {"mean": 36.6, "std": 0.2},
+      "respiratory_rate": {"mean": 16, "std": 2},
+      "activity": {"mean": 6800, "std": 1600}
+    }
+  },
+  {
+    "id": "pat_005",
+    "name": "Priya Shah",
+    "age": 58,
+    "sex": "female",
+    "height_cm": 168,
+    "weight_kg": 80,
+    "diagnoses": ["Heart Failure", "Chronic Kidney Disease"],
+    "risk_profile": "high",
+    "assigned_clinician": "clinician1",
+    "monitoring_status": "active",
+    "baseline_profile": {
+      "heart_rate": {"mean": 90, "std": 8},
+      "bp_systolic": {"mean": 142, "std": 12},
+      "bp_diastolic": {"mean": 90, "std": 8},
+      "spo2": {"mean": 93, "std": 2},
+      "temperature": {"mean": 36.7, "std": 0.2},
+      "respiratory_rate": {"mean": 20, "std": 3},
+      "activity": {"mean": 3200, "std": 800}
+    }
+  }
+]
