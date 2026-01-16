@@ -14,6 +14,7 @@ Reference architecture and API contracts:
 - `docs/api_contracts.md`
 - `docs/fhir_mapping.md`
 - `docs/compliance.md`
+- `docs/technologies.md`
 
 ## Data Model (Clinical)
 **Patient**
