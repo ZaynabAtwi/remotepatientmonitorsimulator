@@ -2,14 +2,69 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    color-scheme: light;
+    --color-bg: #f7fafc;
+    --color-surface: #ffffff;
+    --color-surface-muted: #eef2f7;
+    --color-border: #d7dde8;
+    --color-text: #0f172a;
+    --color-text-muted: #64748b;
+    --color-accent: #3b82f6;
+    --color-critical: #dc6a6a;
+    --color-warning: #f59e0b;
+    --color-stable: #16a34a;
+    --color-info: #4f46e5;
+    --shadow-soft: 0 8px 24px rgba(15, 23, 42, 0.06);
+  }
+
+  .dark {
+    color-scheme: dark;
+    --color-bg: #0f172a;
+    --color-surface: #1e293b;
+    --color-surface-muted: #253247;
+    --color-border: #334155;
+    --color-text: #e2e8f0;
+    --color-text-muted: #94a3b8;
+    --color-accent: #60a5fa;
+    --color-critical: #f08a8a;
+    --color-warning: #f6ad3a;
+    --color-stable: #4ade80;
+    --color-info: #8b9cf5;
+    --shadow-soft: 0 10px 30px rgba(2, 6, 23, 0.35);
+  }
+
+  * {
+    @apply antialiased;
+  }
+
+  body {
+    font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+  }
+}
+
+@layer components {
+  .clinical-surface {
+    @apply rounded-2xl border;
+    border-color: var(--color-border);
+    background-color: var(--color-surface);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .clinical-muted-surface {
+    @apply rounded-xl border;
+    border-color: var(--color-border);
+    background-color: var(--color-surface-muted);
+  }
+
+  .clinical-chip {
+    @apply inline-flex items-center rounded-full px-2.5 py-1 text-xs font-medium;
+  }
+}
+
 body {
-  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
-}
-
-.card {
-  @apply bg-white rounded-xl shadow-sm border border-slate-200;
-}
-
-.badge {
-  @apply inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold;
+  margin: 0;
 }
